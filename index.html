@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--__________________________________ rendering all elements normally  __________________________________-->
+    <link rel="stylesheet" href="css/Normaliz.css">
+    <!--__________________________________ Font Awesome Library __________________________________-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--__________________________________ Main css folder __________________________________-->
+    <link rel="stylesheet" href="css/Style.css">
+    <!-- __________________________________ Google Fonts __________________________________-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&#038;display=swap" rel="stylesheet" />
+    <title>Kasber</title>
+</head>
+
+<body>
+    <!-- __________________________________ Start header __________________________________-->
+    <!-- Start loading animation -->
+    <div class="lds-hourglass" id="loading"></div>
+    <!-- End loading animation -->
+    <header>
+        <div class="container">
+            <div class="logo"><img src="Media/logo.png" alt=""></div>
+            <nav>
+                <i class="fas fa-bars toggle-menu" id="burger"></i>
+                <ul class="menu">
+                    <li><a href="#Home" class="active">Home</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Porfolio">Portfolio</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Pricing">Pricing</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+                <div class="form"><i class="fas fa-search"></i></div>
+            </nav>
+        </div>
+    </header>
+    <!-- __________________________________ End header __________________________________-->
+    <!-- __________________________________ Start Landing __________________________________-->
+    <div class="Landing" id="Home">
+        <div class="layer"></div>
+                <div id="slider">
+                    <!-- Create an img element to display the current image -->
+                    <img src="Media/landing.jpg" id="slider-image">
+                </div>
+                <!-- control the images' slider -->
+                <div id="navigation">
+                    <i class="fas fa-angle-left change-background fa-2x left-arrow" id="prev-button"></i>
+                    <div class="bullets" id="bullets">
+                        <span class="bullet active" data-index="0"></span>
+                        <span class="bullet" data-index="1"></span>
+                        <span class="bullet" data-index="2"></span>
+                        <span class="bullet" data-index="3"></span>
+                        <span class="bullet" data-index="4"></span>
+                    </div>
+                    <i class="fas fa-angle-right change-background fa-2x Right-arrow" id="next-button"></i>
+                </div>
+        <div class="text">
+            <div class="content">
+                <h2>
+                    hello world!<br>
+                    we are kasper we Make Art.
+                </h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem.
+                    Mauris blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+        </div>
+        <!-- <i class="fas fa-angle-left change-background fa-2x left-arrow"></i>
+        <i class="fas fa-angle-right change-background fa-2x Right-arrow"></i>
+        <div class="bullets">
+            <span></span>
+            <span class="active"></span>
+            <span></span>
+        </div> -->
+    </div>
+    <!-- __________________________________ End Landing __________________________________-->
+    <!-- __________________________________ Start Services __________________________________-->
+    <div class="services" id="Services">
+        <div class="container">
+            <div class="special-Head">
+                <h2>services</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+            <div class="services-Content">
+                <div class="serv">
+                    <i class="fas fa-desktop fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                            eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                    </div>
+                </div>
+                <div class="serv">
+                    <i class="fas fa-cog fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                            eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                    </div>
+                </div>
+                <div class="serv">
+                    <i class="fas fa-pencil-ruler fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                            eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                    </div>
+                </div>
+                <div class="serv">
+                    <i class="fas fa-camera fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                            eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- __________________________________ End Services __________________________________-->
+    <!-- __________________________________ Start Design __________________________________-->
+    <div class="Design" id="">
+        <div class="layer"></div>
+        <div class="content">
+            <div class="image"><img src="Media/mobile.png" alt=""></div>
+            <div class="text">
+                <h2 class="Head">our design comes with...</h2>
+                <ul>
+                    <li><i class="fas fa-desktop fa-3x"></i>responsive design</li>
+                    <li><i class="fas fa-desktop fa-3x"></i>modern and clean design</li>
+                    <li><i class="fas fa-desktop fa-3x"></i>clean mode</li>
+                    <li><i class="fas fa-desktop fa-3x"></i>browser friendly</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- __________________________________ End Design __________________________________-->
+    <!-- __________________________________ Start Portfolio __________________________________-->
+    <div class="Portfolio" id="Porfolio">
+        <div class="container">
+            <div class="special-Head">
+                <h2>Portfolio</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+            <ul class="Shuffle">
+                <li class="Special">all</li>
+                <li>app</li>
+                <li>photo</li>
+                <li>web</li>
+                <li>print</li>
+            </ul>
+        </div>
+        <div class="images">
+            <div class="box"><img src="Media/shuffle-01.jpg" alt=""></div>
+            <div class="box"><img src="Media/shuffle-02.jpg" alt=""></div>
+            <div class="box"><img src="Media/shuffle-03.jpg" alt=""></div>
+            <div class="box"><img src="Media/shuffle-04.jpg" alt=""></div>
+            <div class="box"><img src="Media/shuffle-05.jpg" alt=""></div>
+            <div class="box"><img src="Media/shuffle-06.jpg" alt=""></div>
+            <div class="box"><img src="Media/shuffle-07.jpg" alt=""></div>
+            <div class="box"><img src="Media/shuffle-08.jpg" alt=""></div>
+
+        </div>
+        <a href="#" class="more">more</a>
+    </div>
+    <!-- __________________________________ End Portfolio __________________________________-->
+    <!-- __________________________________ Start Video __________________________________-->
+    <div class="Video">
+        <video src="Media/awesome-video.mp4" autoplay muted loop></video>
+        <div class="video-content">
+            <h2>super awesome video here</h2>
+            <h4>it's all you need</h4>
+            <button>see more</button>
+        </div>
+    </div>
+    <!-- __________________________________ End Video __________________________________-->
+    <!-- __________________________________ Start About __________________________________-->
+    <div class="About" id="About">
+        <div class="container">
+            <div class="special-Head">
+                <h2>about us</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+            <img src="Media/about.png" alt="">
+        </div>
+    </div>
+    <!-- __________________________________ End About __________________________________-->
+
+    <!-- __________________________________ Start stats __________________________________-->
+    <div class="stats">
+        <div class="layer"></div>
+        <div class="content">
+            <div class="container">
+                <div class="col">
+                    <i class="fas fa-mug-hot"></i>
+                    <h2>1.236</h2>
+                    <p>coffee drinks</p>
+                </div>
+                <div class="col">
+                    <i class="far fa-folder"></i>
+                    <h2>256</h2>
+                    <p>completed projects</p>
+                </div>
+                <div class="col">
+                    <i class="far fa-envelope"></i>
+                    <h2>1,743</h2>
+                    <p>mail sent</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-trophy"></i>
+                    <h2>17</h2>
+                    <p>awards received</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- __________________________________ End stats __________________________________-->
+
+    <!-- __________________________________ Start our-skills __________________________________-->
+    <div class="our-skills">
+        <div class="container">
+            <div class="testimonials">
+                <div class="head">
+                    <h2>testimonials</h2>
+                    <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                        eget tincidunt.</p>
+                </div>
+                <div class="testimonials-content">
+                    <img src="Media/skills-01.jpg" alt="">
+                    <div class="text">
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                            eget tincidunt.</p>
+                        <p class="sign">John Doe, CEO</p>
+                    </div>
+                </div>
+                <div class="testimonials-content">
+                    <img src="Media/skills-02.jpg" alt="">
+                    <div class="text">
+                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                            eget tincidunt.</p>
+                        <p class="sign">John Doe, CEO</p>
+                    </div>
+                </div>
+                <div class="bullets">
+                    <span></span>
+                    <span class="active"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="head">
+                    <h2>skills</h2>
+                    <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                        eget tincidunt.</p>
+                </div>
+                <div class="progress">
+                    <h4>adobe</h4>
+                    <div class="prog">
+                        <span style="width: 90%;" data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <h4>html & css</h4>
+                    <div class="prog">
+                        <span style="width: 85%;" data-progress="85%"></span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <h4>javascript</h4>
+                    <div class="prog">
+                        <span style="width: 80%;" data-progress="80%"></span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <h4>php</h4>
+                    <div class="prog">
+                        <span style="width: 90%;" data-progress="90%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- __________________________________ End our-skills __________________________________-->
+
+    <!-- __________________________________ Start QUOTES __________________________________-->
+    <div class="Quote">
+        <div class="layer"></div>
+        <div class="Content">
+            <div class="container">
+                <q>
+                    accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt
+                </q>
+                <span>John Doe</span>
+            </div>
+        </div>
+    </div>
+    <!-- __________________________________ End QUOTeS __________________________________-->
+    <!-- __________________________________ Start Pricing __________________________________-->
+    <div class="Pricing" id="Pricing">
+        <div class="container">
+            <div class="special-Head">
+                <h2>pricing</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+            <div class="plans">
+                <div class="plan">
+                    <div class="head">
+                        <h3>basic</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>feature</li>
+                    </ul>
+                    <div class="foot"><a href="#">Buy Now</a></div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>premium</h3>
+                        <span>29</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>feature</li>
+                    </ul>
+                    <div class="foot"><a href="#">Buy Now</a></div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>pro</h3>
+                        <span>39</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>feature</li>
+                    </ul>
+                    <div class="foot"><a href="#">Buy Now</a></div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>platinum</h3>
+                        <span>49</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>feature</li>
+                    </ul>
+                    <div class="foot"><a href="#">Buy Now</a></div>
+                </div>
+            </div>
+            <div class="contact-us">
+                <p>Contact us if you have special request
+                </p>
+                <a href="#">contact us</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- __________________________________ End Pricing __________________________________-->
+    <!-- __________________________________ Start subscribe __________________________________-->
+    <div class="subscribe">
+        <div class="layer"></div>
+        <div class="container">
+            <form action="" method="get">
+                <input type="email" id="mail" placeholder="Your Email">
+                <i class="far fa-envelope fa-lg"></i>
+                <input type="submit" value="subscribe">
+            </form>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget
+                tincidunt.
+            </p>
+        </div>
+    </div>
+    <!-- __________________________________ End subscribe __________________________________-->
+    <!-- __________________________________ Start Contact Us __________________________________-->
+    <div class="Contact-Us" id="Contact">
+        <div class="container">
+            <div class="special-Head">
+                <h2>contact us</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.
+                </p>
+            </div>
+            <div class="content">
+                <form action="" method="get">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea name="Your-Message" id="Message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="send Message">
+                </form>
+                <div class="info">
+                    <div class="numb">
+                        <h4>get in touche</h4>
+                        <a href="tel:+00 123.456.789">+00 123.456.789</a>
+                        <a href="tel:+00 123.456.789">+00 123.456.789</a>
+                    </div>
+                    <div class="location">
+                        <h4>
+                            where we are
+                        </h4>
+                        <address>
+                            Awesome Address 17<br>
+                            New York, NYC<br>
+                            123-4567-890<br>
+                            USA
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- __________________________________ End Contact Us __________________________________-->
+    <!-- __________________________________ Start footer __________________________________-->
+    <footer>
+        <div class="layer"></div>
+        <div class="container">
+            <img src="Media/logo.png" alt="Logo">
+            <p>We are social</p>
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-home"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <div class="copyright">
+                &#169; 2021 <span>Kasper</span> all right received
+            </div>
+        </div>
+    </footer>
+    <!-- __________________________________ End footer __________________________________-->
+
+</body>
+<script src="main.js"></script>
+</html>
